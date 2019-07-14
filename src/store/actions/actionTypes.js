@@ -1,0 +1,21 @@
+export const ADD_INGREDIENTS = 'ADD_INGREDIENTS';
+export const REMOVE_INGREDIENTS = 'REMOVE_INGREDIENTS';
+// initIngredients is not added as it is only needed for async
+export const SET_INGREDIENTS = 'SET_INGREDIENTS';
+export const FETCH_FAILED = 'FETCH_FAILED';
+
+export const PURCHASE_INIT = 'PURCHASE_INIT';
+export const BURGER_PURCHASE_START = 'BURGER_PURCHASE_START';
+export const BURGER_PURCHASE_SUCCESS = 'BURGER_PURCHASE_SUCCESS';
+export const BURGER_PURCHASE_FAIL = 'BURGER_PURCHASE_FAIL';
+
+export const FETCH_ORDER_SUCCESS = 'FETCH_ORDER_SUCCESS';
+export const FETCH_ORDER_FAIL = 'FETCH_ORDER_FAIL';
+export const FETCH_ORDER_START = 'FETCH_ORDER_START';
+
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+export const SET_AUTH_REDIRECT_PATH = 'SET_AUTH_REDIRECT_PATH';
